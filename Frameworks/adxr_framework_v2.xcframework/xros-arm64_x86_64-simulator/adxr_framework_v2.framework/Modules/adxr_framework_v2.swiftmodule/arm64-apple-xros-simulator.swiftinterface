@@ -41,7 +41,7 @@ import _SwiftConcurrencyShims
   public var $playerModel: Combine.Published<adxr_framework_v2.PlayerModel>.Publisher {
     get
   }
-  public func getAd()
+  public func getAd(urlString: Swift.String)
   public func reset()
   public func applyOverlay<T>(to view: T) -> some SwiftUI.View where T : SwiftUI.View
   

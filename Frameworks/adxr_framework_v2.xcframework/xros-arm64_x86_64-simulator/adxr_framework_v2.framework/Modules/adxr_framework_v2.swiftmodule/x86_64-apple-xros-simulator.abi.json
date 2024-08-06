@@ -582,20 +582,27 @@
           {
             "kind": "Function",
             "name": "getAd",
-            "printedName": "getAd()",
+            "printedName": "getAd(urlString:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17adxr_framework_v24ADXRC5getAdyyF",
-            "mangledName": "$s17adxr_framework_v24ADXRC5getAdyyF",
+            "usr": "s:17adxr_framework_v24ADXRC5getAd9urlStringySS_tF",
+            "mangledName": "$s17adxr_framework_v24ADXRC5getAd9urlStringySS_tF",
             "moduleName": "adxr_framework_v2",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2257,42 +2264,42 @@
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 1437,
+      "offset": 1743,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 1486,
+      "offset": 1792,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 1535,
+      "offset": 1841,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "StringLiteral",
-      "offset": 6350,
+      "offset": 6656,
       "length": 11,
       "value": "\"adxr_framework_v2.Coordinator\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 7139,
+      "offset": 7445,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "Array",
-      "offset": 9479,
+      "offset": 9785,
       "length": 127,
       "value": "[\"Inappropriate content\", \"Misleading information\", \"Poor video quality\", \"Audio issues\"]"
     }
