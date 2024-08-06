@@ -1,0 +1,2300 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "adxr_framework_v2",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "adxr_framework_v2"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "adxr_framework_v2"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ADXR",
+        "printedName": "ADXR",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ADXR",
+                "printedName": "adxr_framework_v2.ADXR",
+                "usr": "s:17adxr_framework_v24ADXRC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v24ADXRC6sharedACvpZ",
+            "mangledName": "$s17adxr_framework_v24ADXRC6sharedACvpZ",
+            "moduleName": "adxr_framework_v2",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ADXR",
+                    "printedName": "adxr_framework_v2.ADXR",
+                    "usr": "s:17adxr_framework_v24ADXRC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC6sharedACvgZ",
+                "mangledName": "$s17adxr_framework_v24ADXRC6sharedACvgZ",
+                "moduleName": "adxr_framework_v2",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isShowingAd",
+            "printedName": "isShowingAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v24ADXRC11isShowingAdSbvp",
+            "mangledName": "$s17adxr_framework_v24ADXRC11isShowingAdSbvp",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC11isShowingAdSbvg",
+                "mangledName": "$s17adxr_framework_v24ADXRC11isShowingAdSbvg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC11isShowingAdSbvs",
+                "mangledName": "$s17adxr_framework_v24ADXRC11isShowingAdSbvs",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC11isShowingAdSbvM",
+                "mangledName": "$s17adxr_framework_v24ADXRC11isShowingAdSbvM",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$isShowingAd",
+            "printedName": "$isShowingAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v24ADXRC12$isShowingAd7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s17adxr_framework_v24ADXRC12$isShowingAd7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "adxr_framework_v2",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC12$isShowingAd7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s17adxr_framework_v24ADXRC12$isShowingAd7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC12$isShowingAd7Combine9PublishedV9PublisherVySb_Gvs",
+                "mangledName": "$s17adxr_framework_v24ADXRC12$isShowingAd7Combine9PublishedV9PublisherVySb_Gvs",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC12$isShowingAd7Combine9PublishedV9PublisherVySb_GvM",
+                "mangledName": "$s17adxr_framework_v24ADXRC12$isShowingAd7Combine9PublishedV9PublisherVySb_GvM",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showPlayerView",
+            "printedName": "showPlayerView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v24ADXRC14showPlayerViewSbvp",
+            "mangledName": "$s17adxr_framework_v24ADXRC14showPlayerViewSbvp",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC14showPlayerViewSbvg",
+                "mangledName": "$s17adxr_framework_v24ADXRC14showPlayerViewSbvg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC14showPlayerViewSbvs",
+                "mangledName": "$s17adxr_framework_v24ADXRC14showPlayerViewSbvs",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC14showPlayerViewSbvM",
+                "mangledName": "$s17adxr_framework_v24ADXRC14showPlayerViewSbvM",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$showPlayerView",
+            "printedName": "$showPlayerView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v24ADXRC15$showPlayerView7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s17adxr_framework_v24ADXRC15$showPlayerView7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "adxr_framework_v2",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC15$showPlayerView7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s17adxr_framework_v24ADXRC15$showPlayerView7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC15$showPlayerView7Combine9PublishedV9PublisherVySb_Gvs",
+                "mangledName": "$s17adxr_framework_v24ADXRC15$showPlayerView7Combine9PublishedV9PublisherVySb_Gvs",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC15$showPlayerView7Combine9PublishedV9PublisherVySb_GvM",
+                "mangledName": "$s17adxr_framework_v24ADXRC15$showPlayerView7Combine9PublishedV9PublisherVySb_GvM",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "playerModel",
+            "printedName": "playerModel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlayerModel",
+                "printedName": "adxr_framework_v2.PlayerModel",
+                "usr": "s:17adxr_framework_v211PlayerModelC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v24ADXRC11playerModelAA06PlayerF0Cvp",
+            "mangledName": "$s17adxr_framework_v24ADXRC11playerModelAA06PlayerF0Cvp",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayerModel",
+                    "printedName": "adxr_framework_v2.PlayerModel",
+                    "usr": "s:17adxr_framework_v211PlayerModelC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC11playerModelAA06PlayerF0Cvg",
+                "mangledName": "$s17adxr_framework_v24ADXRC11playerModelAA06PlayerF0Cvg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$playerModel",
+            "printedName": "$playerModel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<adxr_framework_v2.PlayerModel>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v24ADXRC12$playerModel7Combine9PublishedV9PublisherVyAA06PlayerF0C_Gvp",
+            "mangledName": "$s17adxr_framework_v24ADXRC12$playerModel7Combine9PublishedV9PublisherVyAA06PlayerF0C_Gvp",
+            "moduleName": "adxr_framework_v2",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<adxr_framework_v2.PlayerModel>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v24ADXRC12$playerModel7Combine9PublishedV9PublisherVyAA06PlayerF0C_Gvg",
+                "mangledName": "$s17adxr_framework_v24ADXRC12$playerModel7Combine9PublishedV9PublisherVyAA06PlayerF0C_Gvg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getAd",
+            "printedName": "getAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v24ADXRC5getAdyyF",
+            "mangledName": "$s17adxr_framework_v24ADXRC5getAdyyF",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v24ADXRC5resetyyF",
+            "mangledName": "$s17adxr_framework_v24ADXRC5resetyyF",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applyOverlay",
+            "printedName": "applyOverlay(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v24ADXRC12applyOverlay2toQrx_t7SwiftUI4ViewRzlF",
+            "mangledName": "$s17adxr_framework_v24ADXRC12applyOverlay2toQrx_t7SwiftUI4ViewRzlF",
+            "moduleName": "adxr_framework_v2",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<T where T : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17adxr_framework_v24ADXRC",
+        "mangledName": "$s17adxr_framework_v24ADXRC",
+        "moduleName": "adxr_framework_v2",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlayerModel",
+        "printedName": "PlayerModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "player",
+            "printedName": "player",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVPlayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVPlayer",
+                    "printedName": "AVFoundation.AVPlayer",
+                    "usr": "c:objc(cs)AVPlayer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v211PlayerModelC6playerSo8AVPlayerCSgvp",
+            "mangledName": "$s17adxr_framework_v211PlayerModelC6playerSo8AVPlayerCSgvp",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVPlayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVPlayer",
+                        "printedName": "AVFoundation.AVPlayer",
+                        "usr": "c:objc(cs)AVPlayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC6playerSo8AVPlayerCSgvg",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC6playerSo8AVPlayerCSgvg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$player",
+            "printedName": "$player",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<AVFoundation.AVPlayer>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v211PlayerModelC7$player7Combine9PublishedV9PublisherVySo8AVPlayerCSg_Gvp",
+            "mangledName": "$s17adxr_framework_v211PlayerModelC7$player7Combine9PublishedV9PublisherVySo8AVPlayerCSg_Gvp",
+            "moduleName": "adxr_framework_v2",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<AVFoundation.AVPlayer>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC7$player7Combine9PublishedV9PublisherVySo8AVPlayerCSg_Gvg",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC7$player7Combine9PublishedV9PublisherVySo8AVPlayerCSg_Gvg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isPlaying",
+            "printedName": "isPlaying",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v211PlayerModelC9isPlayingSbvp",
+            "mangledName": "$s17adxr_framework_v211PlayerModelC9isPlayingSbvp",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC9isPlayingSbvg",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC9isPlayingSbvg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$isPlaying",
+            "printedName": "$isPlaying",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v211PlayerModelC10$isPlaying7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s17adxr_framework_v211PlayerModelC10$isPlaying7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "adxr_framework_v2",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC10$isPlaying7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC10$isPlaying7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showPlayerView",
+            "printedName": "showPlayerView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v211PlayerModelC04showD4ViewSbvp",
+            "mangledName": "$s17adxr_framework_v211PlayerModelC04showD4ViewSbvp",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC04showD4ViewSbvg",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC04showD4ViewSbvg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC04showD4ViewSbvs",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC04showD4ViewSbvs",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC04showD4ViewSbvM",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC04showD4ViewSbvM",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$showPlayerView",
+            "printedName": "$showPlayerView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v211PlayerModelC05$showD4View7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s17adxr_framework_v211PlayerModelC05$showD4View7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "adxr_framework_v2",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC05$showD4View7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC05$showD4View7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC05$showD4View7Combine9PublishedV9PublisherVySb_Gvs",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC05$showD4View7Combine9PublishedV9PublisherVySb_Gvs",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC05$showD4View7Combine9PublishedV9PublisherVySb_GvM",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC05$showD4View7Combine9PublishedV9PublisherVySb_GvM",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showCustomInfo",
+            "printedName": "showCustomInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v211PlayerModelC14showCustomInfoSbvp",
+            "mangledName": "$s17adxr_framework_v211PlayerModelC14showCustomInfoSbvp",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC14showCustomInfoSbvg",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC14showCustomInfoSbvg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC14showCustomInfoSbvs",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC14showCustomInfoSbvs",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC14showCustomInfoSbvM",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC14showCustomInfoSbvM",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$showCustomInfo",
+            "printedName": "$showCustomInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v211PlayerModelC15$showCustomInfo7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s17adxr_framework_v211PlayerModelC15$showCustomInfo7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "adxr_framework_v2",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC15$showCustomInfo7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC15$showCustomInfo7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC15$showCustomInfo7Combine9PublishedV9PublisherVySb_Gvs",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC15$showCustomInfo7Combine9PublishedV9PublisherVySb_Gvs",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v211PlayerModelC15$showCustomInfo7Combine9PublishedV9PublisherVySb_GvM",
+                "mangledName": "$s17adxr_framework_v211PlayerModelC15$showCustomInfo7Combine9PublishedV9PublisherVySb_GvM",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlayerModel",
+                "printedName": "adxr_framework_v2.PlayerModel",
+                "usr": "s:17adxr_framework_v211PlayerModelC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17adxr_framework_v211PlayerModelCACycfc",
+            "mangledName": "$s17adxr_framework_v211PlayerModelCACycfc",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadVideo",
+            "printedName": "loadVideo(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v211PlayerModelC9loadVideo3urly10Foundation3URLV_tF",
+            "mangledName": "$s17adxr_framework_v211PlayerModelC9loadVideo3urly10Foundation3URLV_tF",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "play",
+            "printedName": "play()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v211PlayerModelC4playyyF",
+            "mangledName": "$s17adxr_framework_v211PlayerModelC4playyyF",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v211PlayerModelC5pauseyyF",
+            "mangledName": "$s17adxr_framework_v211PlayerModelC5pauseyyF",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v211PlayerModelC5resetyyF",
+            "mangledName": "$s17adxr_framework_v211PlayerModelC5resetyyF",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "seekToBeginning",
+            "printedName": "seekToBeginning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v211PlayerModelC15seekToBeginningyyF",
+            "mangledName": "$s17adxr_framework_v211PlayerModelC15seekToBeginningyyF",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17adxr_framework_v211PlayerModelC",
+        "mangledName": "$s17adxr_framework_v211PlayerModelC",
+        "moduleName": "adxr_framework_v2",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlayerView",
+        "printedName": "PlayerView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(playerModel:adManager:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlayerView",
+                "printedName": "adxr_framework_v2.PlayerView",
+                "usr": "s:17adxr_framework_v210PlayerViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlayerModel",
+                "printedName": "adxr_framework_v2.PlayerModel",
+                "usr": "s:17adxr_framework_v211PlayerModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXR",
+                "printedName": "adxr_framework_v2.ADXR",
+                "usr": "s:17adxr_framework_v24ADXRC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17adxr_framework_v210PlayerViewV11playerModel9adManagerAcA0dG0C_AA4ADXRCtcfc",
+            "mangledName": "$s17adxr_framework_v210PlayerViewV11playerModel9adManagerAcA0dG0C_AA4ADXRCtcfc",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIViewController",
+            "printedName": "makeUIViewController(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AVPlayerViewController",
+                "printedName": "AVKit.AVPlayerViewController",
+                "usr": "c:objc(cs)AVPlayerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<adxr_framework_v2.PlayerView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayerView",
+                    "printedName": "adxr_framework_v2.PlayerView",
+                    "usr": "s:17adxr_framework_v210PlayerViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v210PlayerViewV20makeUIViewController7contextSo08AVPlayereH0C7SwiftUI0gH20RepresentableContextVyACG_tF",
+            "mangledName": "$s17adxr_framework_v210PlayerViewV20makeUIViewController7contextSo08AVPlayereH0C7SwiftUI0gH20RepresentableContextVyACG_tF",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIViewController",
+            "printedName": "updateUIViewController(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVPlayerViewController",
+                "printedName": "AVKit.AVPlayerViewController",
+                "usr": "c:objc(cs)AVPlayerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<adxr_framework_v2.PlayerView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayerView",
+                    "printedName": "adxr_framework_v2.PlayerView",
+                    "usr": "s:17adxr_framework_v210PlayerViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v210PlayerViewV22updateUIViewController_7contextySo08AVPlayereH0C_7SwiftUI0gH20RepresentableContextVyACGtF",
+            "mangledName": "$s17adxr_framework_v210PlayerViewV22updateUIViewController_7contextySo08AVPlayereH0C_7SwiftUI0gH20RepresentableContextVyACGtF",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeCoordinator",
+            "printedName": "makeCoordinator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinator",
+                "printedName": "adxr_framework_v2.PlayerView.Coordinator",
+                "usr": "s:17adxr_framework_v210PlayerViewV11CoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v210PlayerViewV15makeCoordinatorAC0G0CyF",
+            "mangledName": "$s17adxr_framework_v210PlayerViewV15makeCoordinatorAC0G0CyF",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Coordinator",
+            "printedName": "Coordinator",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "playerViewControllerWillDismiss",
+                "printedName": "playerViewControllerWillDismiss(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVPlayerViewController",
+                    "printedName": "AVKit.AVPlayerViewController",
+                    "usr": "c:objc(cs)AVPlayerViewController"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17adxr_framework_v210PlayerViewV11CoordinatorC06playerE21ControllerWillDismissyySo08AVPlayereH0CF",
+                "mangledName": "$s17adxr_framework_v210PlayerViewV11CoordinatorC06playerE21ControllerWillDismissyySo08AVPlayereH0CF",
+                "moduleName": "adxr_framework_v2",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "playerViewControllerDidStopPictureInPicture",
+                "printedName": "playerViewControllerDidStopPictureInPicture(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVPlayerViewController",
+                    "printedName": "AVKit.AVPlayerViewController",
+                    "usr": "c:objc(cs)AVPlayerViewController"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17adxr_framework_v210PlayerViewV11CoordinatorC06playere26ControllerDidStopPictureInK0yySo08AVPlayereH0CF",
+                "mangledName": "$s17adxr_framework_v210PlayerViewV11CoordinatorC06playere26ControllerDidStopPictureInK0yySo08AVPlayereH0CF",
+                "moduleName": "adxr_framework_v2",
+                "objc_name": "playerViewControllerDidStopPictureInPicture:",
+                "declAttributes": [
+                  "ObjC",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "adxr_framework_v2.PlayerView.Coordinator",
+                    "usr": "s:17adxr_framework_v210PlayerViewV11CoordinatorC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:17adxr_framework_v210PlayerViewV11CoordinatorCAEycfc",
+                "mangledName": "$s17adxr_framework_v210PlayerViewV11CoordinatorCAEycfc",
+                "moduleName": "adxr_framework_v2",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:17adxr_framework_v210PlayerViewV11CoordinatorC",
+            "mangledName": "$s17adxr_framework_v210PlayerViewV11CoordinatorC",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "hasMissingDesignatedInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17adxr_framework_v210PlayerViewV",
+        "mangledName": "$s17adxr_framework_v210PlayerViewV",
+        "moduleName": "adxr_framework_v2",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UIViewControllerRepresentable",
+            "printedName": "UIViewControllerRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewControllerType",
+                "printedName": "UIViewControllerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVPlayerViewController",
+                    "printedName": "AVKit.AVPlayerViewController",
+                    "usr": "c:objc(cs)AVPlayerViewController"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "adxr_framework_v2.PlayerView.Coordinator",
+                    "usr": "s:17adxr_framework_v210PlayerViewV11CoordinatorC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI29UIViewControllerRepresentableP",
+            "mangledName": "$s7SwiftUI29UIViewControllerRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomInfoView",
+        "printedName": "CustomInfoView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v214CustomInfoViewV4bodyQrvp",
+            "mangledName": "$s17adxr_framework_v214CustomInfoViewV4bodyQrvp",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v214CustomInfoViewV4bodyQrvg",
+                "mangledName": "$s17adxr_framework_v214CustomInfoViewV4bodyQrvg",
+                "moduleName": "adxr_framework_v2",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17adxr_framework_v214CustomInfoViewV",
+        "mangledName": "$s17adxr_framework_v214CustomInfoViewV",
+        "moduleName": "adxr_framework_v2",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReportOptionsView",
+        "printedName": "ReportOptionsView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v217ReportOptionsViewV4bodyQrvp",
+            "mangledName": "$s17adxr_framework_v217ReportOptionsViewV4bodyQrvp",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v217ReportOptionsViewV4bodyQrvg",
+                "mangledName": "$s17adxr_framework_v217ReportOptionsViewV4bodyQrvg",
+                "moduleName": "adxr_framework_v2",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17adxr_framework_v217ReportOptionsViewV",
+        "mangledName": "$s17adxr_framework_v217ReportOptionsViewV",
+        "moduleName": "adxr_framework_v2",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ADXROverlay",
+        "printedName": "ADXROverlay",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "body",
+            "printedName": "body(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_ViewModifier_Content",
+                "printedName": "SwiftUI._ViewModifier_Content<adxr_framework_v2.ADXROverlay>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ADXROverlay",
+                    "printedName": "adxr_framework_v2.ADXROverlay",
+                    "usr": "s:17adxr_framework_v211ADXROverlayV"
+                  }
+                ],
+                "usr": "s:7SwiftUI21_ViewModifier_ContentV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v211ADXROverlayV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF",
+            "mangledName": "$s17adxr_framework_v211ADXROverlayV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17adxr_framework_v211ADXROverlayV",
+        "mangledName": "$s17adxr_framework_v211ADXROverlayV",
+        "moduleName": "adxr_framework_v2",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ViewModifier",
+            "printedName": "ViewModifier",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI12ViewModifierP",
+            "mangledName": "$s7SwiftUI12ViewModifierP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ADXRViewModifier",
+        "printedName": "ADXRViewModifier",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "body",
+            "printedName": "body(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_ViewModifier_Content",
+                "printedName": "SwiftUI._ViewModifier_Content<adxr_framework_v2.ADXRViewModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ADXRViewModifier",
+                    "printedName": "adxr_framework_v2.ADXRViewModifier",
+                    "usr": "s:17adxr_framework_v216ADXRViewModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI21_ViewModifier_ContentV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v216ADXRViewModifierV4body7contentQr7SwiftUI05_ViewE8_ContentVyACG_tF",
+            "mangledName": "$s17adxr_framework_v216ADXRViewModifierV4body7contentQr7SwiftUI05_ViewE8_ContentVyACG_tF",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17adxr_framework_v216ADXRViewModifierV",
+        "mangledName": "$s17adxr_framework_v216ADXRViewModifierV",
+        "moduleName": "adxr_framework_v2",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ViewModifier",
+            "printedName": "ViewModifier",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI12ViewModifierP",
+            "mangledName": "$s7SwiftUI12ViewModifierP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "withADXR",
+            "printedName": "withADXR()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP17adxr_framework_v2E8withADXRQryF",
+            "mangledName": "$s7SwiftUI4ViewP17adxr_framework_v2E8withADXRQryF",
+            "moduleName": "adxr_framework_v2",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
+      "kind": "BooleanLiteral",
+      "offset": 254,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
+      "kind": "BooleanLiteral",
+      "offset": 309,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1437,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1486,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1535,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
+      "kind": "StringLiteral",
+      "offset": 6350,
+      "length": 11,
+      "value": "\"adxr_framework_v2.Coordinator\""
+    },
+    {
+      "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7139,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
+      "kind": "Array",
+      "offset": 9479,
+      "length": 127,
+      "value": "[\"Inappropriate content\", \"Misleading information\", \"Poor video quality\", \"Audio issues\"]"
+    }
+  ]
+}
