@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ADXRPackage",
+    name: "ADXRPackagev2",
     platforms: [
         .iOS(.v14),
         .macOS(.v11)
