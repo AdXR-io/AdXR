@@ -601,8 +601,7 @@
             "mangledName": "$s17adxr_framework_v24ADXRC5getAd9urlStringySS_tF",
             "moduleName": "adxr_framework_v2",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2264,42 +2263,42 @@
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 1743,
+      "offset": 1341,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 1792,
+      "offset": 1390,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 1841,
+      "offset": 1439,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "StringLiteral",
-      "offset": 6656,
+      "offset": 6254,
       "length": 11,
       "value": "\"adxr_framework_v2.Coordinator\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 7445,
+      "offset": 7043,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "Array",
-      "offset": 9785,
+      "offset": 9383,
       "length": 127,
       "value": "[\"Inappropriate content\", \"Misleading information\", \"Poor video quality\", \"Audio issues\"]"
     }
