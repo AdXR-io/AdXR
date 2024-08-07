@@ -125,6 +125,7 @@ public struct ReportOptionsView : SwiftUI.View {
   public typealias Body = @_opaqueReturnTypeOf("$s17adxr_framework_v211ADXROverlayV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF", 0) __
 }
 @_Concurrency.MainActor(unsafe) public struct ADXRViewModifier : SwiftUI.ViewModifier {
+  @_Concurrency.MainActor(unsafe) public init(adManager: adxr_framework_v2.ADXR = .shared)
   @_Concurrency.MainActor(unsafe) public func body(content: adxr_framework_v2.ADXRViewModifier.Content) -> some SwiftUI.View
   
   public typealias Body = @_opaqueReturnTypeOf("$s17adxr_framework_v216ADXRViewModifierV4body7contentQr7SwiftUI05_ViewE8_ContentVyACG_tF", 0) __

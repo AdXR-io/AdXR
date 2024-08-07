@@ -2106,6 +2106,35 @@
         "printedName": "ADXRViewModifier",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adManager:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ADXRViewModifier",
+                "printedName": "adxr_framework_v2.ADXRViewModifier",
+                "usr": "s:17adxr_framework_v216ADXRViewModifierV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ADXR",
+                "printedName": "adxr_framework_v2.ADXR",
+                "hasDefaultArg": true,
+                "usr": "s:17adxr_framework_v24ADXRC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17adxr_framework_v216ADXRViewModifierV9adManagerAcA4ADXRC_tcfc",
+            "mangledName": "$s17adxr_framework_v216ADXRViewModifierV9adManagerAcA4ADXRC_tcfc",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "body",
             "printedName": "body(content:)",

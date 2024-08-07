@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/adxr_framework_v2.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<data>
-		mwsQVoUJzpWlfcnR0KW+bYCNh5M=
+		7zeYti4PBhdCCnlQ6WaQaGRdC/E=
 		</data>
 		<key>Modules/adxr_framework_v2.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		3fcsZq2bA+6d/CfZHoCV/yLVsAo=
+		HVTzQmhvd1Q5SAezRML0ZrXz8Wg=
 		</data>
 		<key>Modules/adxr_framework_v2.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/adxr_framework_v2.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		3fcsZq2bA+6d/CfZHoCV/yLVsAo=
+		HVTzQmhvd1Q5SAezRML0ZrXz8Wg=
 		</data>
 		<key>Modules/adxr_framework_v2.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		GMmLyuTuAC4lhRZ+fR7LZssNoOM=
+		Sinht07D+JXKKdmN6zsIzRBuRqc=
 		</data>
 		<key>Modules/adxr_framework_v2.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
 		<data>
-		mwsQVoUJzpWlfcnR0KW+bYCNh5M=
+		7zeYti4PBhdCCnlQ6WaQaGRdC/E=
 		</data>
 		<key>Modules/adxr_framework_v2.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		lPvJwlKCPWMHPR7lslJ2ci/Tp0s=
+		cOOkwojPKc6zjeiUS+3yl6nWK54=
 		</data>
 		<key>Modules/adxr_framework_v2.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/adxr_framework_v2.swiftmodule/x86_64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		lPvJwlKCPWMHPR7lslJ2ci/Tp0s=
+		cOOkwojPKc6zjeiUS+3yl6nWK54=
 		</data>
 		<key>Modules/adxr_framework_v2.swiftmodule/x86_64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		w8Mb/4S/UMn7FFZZNFonnjka19A=
+		H1oMvlqH89tFUsa/T8v5gZKvNx4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,14 +70,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hy1fFGjOARn7Q3/4HlgIrpTxAGnQeZwsJ5MfAcvMERo=
+			0tJeAzqCO7DeRhXFlIHz/J6RRFNANn+q5en4bOqw08o=
 			</data>
 		</dict>
 		<key>Modules/adxr_framework_v2.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oacjU9z4oQKcbtaKs3EOXeAwag/+j/2NQ45T/HVMJyE=
+			rGyqZkjCLfHqwe7fGC7TR5v2DbuiOxQWMV2WpO6hqsA=
 			</data>
 		</dict>
 		<key>Modules/adxr_framework_v2.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oacjU9z4oQKcbtaKs3EOXeAwag/+j/2NQ45T/HVMJyE=
+			rGyqZkjCLfHqwe7fGC7TR5v2DbuiOxQWMV2WpO6hqsA=
 			</data>
 		</dict>
 		<key>Modules/adxr_framework_v2.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QfYfi00u8ZnZu+pQySqeeJpSHQuJ+9xSO6p2UCd3ROk=
+			DyHPnV4WoHepIFE/IH3ZabB7OQyd6JmxU03P/9lRahE=
 			</data>
 		</dict>
 		<key>Modules/adxr_framework_v2.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hy1fFGjOARn7Q3/4HlgIrpTxAGnQeZwsJ5MfAcvMERo=
+			0tJeAzqCO7DeRhXFlIHz/J6RRFNANn+q5en4bOqw08o=
 			</data>
 		</dict>
 		<key>Modules/adxr_framework_v2.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I8E6fvKFoKIyb1KHYc1pU1wFtLkY2HqITIFkQAVtMJc=
+			HKAy1eu1/nqQT2+ym2dEOFS9TnH2I9gqD8J3EDrSl0k=
 			</data>
 		</dict>
 		<key>Modules/adxr_framework_v2.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I8E6fvKFoKIyb1KHYc1pU1wFtLkY2HqITIFkQAVtMJc=
+			HKAy1eu1/nqQT2+ym2dEOFS9TnH2I9gqD8J3EDrSl0k=
 			</data>
 		</dict>
 		<key>Modules/adxr_framework_v2.swiftmodule/x86_64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+XkR/FzmJeARBsFeWUi981WSxLN6uoMBacOY7NjNUDU=
+			Hs6etOIv81qjcKLixRRfJLXeD1oelI3CbSHVvWunUQ4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
