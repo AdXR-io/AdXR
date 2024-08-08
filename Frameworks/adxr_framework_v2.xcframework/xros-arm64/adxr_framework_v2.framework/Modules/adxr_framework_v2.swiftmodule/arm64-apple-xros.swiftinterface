@@ -53,6 +53,7 @@ import _SwiftConcurrencyShims
 public enum ADXRError : Swift.Error {
   case invalidCredentials
   case invalidURL
+  case invalidResponse
   public static func == (a: adxr_framework_v2.ADXRError, b: adxr_framework_v2.ADXRError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {

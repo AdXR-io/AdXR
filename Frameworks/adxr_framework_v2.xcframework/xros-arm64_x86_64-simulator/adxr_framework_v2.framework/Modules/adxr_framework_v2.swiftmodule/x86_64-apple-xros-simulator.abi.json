@@ -787,6 +787,43 @@
             "moduleName": "adxr_framework_v2"
           },
           {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(adxr_framework_v2.ADXRError.Type) -> adxr_framework_v2.ADXRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ADXRError",
+                    "printedName": "adxr_framework_v2.ADXRError",
+                    "usr": "s:17adxr_framework_v29ADXRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "adxr_framework_v2.ADXRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ADXRError",
+                        "printedName": "adxr_framework_v2.ADXRError",
+                        "usr": "s:17adxr_framework_v29ADXRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17adxr_framework_v29ADXRErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s17adxr_framework_v29ADXRErrorO15invalidResponseyA2CmF",
+            "moduleName": "adxr_framework_v2"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -2519,42 +2556,42 @@
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 2274,
+      "offset": 2824,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 2323,
+      "offset": 2873,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 2372,
+      "offset": 2922,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "StringLiteral",
-      "offset": 7187,
+      "offset": 7737,
       "length": 11,
       "value": "\"adxr_framework_v2.Coordinator\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 7976,
+      "offset": 8526,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "Array",
-      "offset": 10316,
+      "offset": 10866,
       "length": 127,
       "value": "[\"Inappropriate content\", \"Misleading information\", \"Poor video quality\", \"Audio issues\"]"
     }
