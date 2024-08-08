@@ -41,12 +41,23 @@ import _SwiftConcurrencyShims
   public var $playerModel: Combine.Published<adxr_framework_v2.PlayerModel>.Publisher {
     get
   }
-  public func getAd(urlString: Swift.String)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getAd(urlString: Swift.String, apiKey: Swift.String, secretKey: Swift.String) async throws
+  #endif
   public func reset()
   public func applyOverlay<T>(to view: T) -> some SwiftUI.View where T : SwiftUI.View
   
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
+}
+public enum ADXRError : Swift.Error {
+  case invalidCredentials
+  case invalidURL
+  public static func == (a: adxr_framework_v2.ADXRError, b: adxr_framework_v2.ADXRError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public class PlayerModel : Combine.ObservableObject {
   @Combine.Published @_projectedValueProperty($player) public var player: AVFoundation.AVPlayer? {
@@ -134,3 +145,5 @@ extension SwiftUI.View {
   public func withADXR() -> some SwiftUI.View
   
 }
+extension adxr_framework_v2.ADXRError : Swift.Equatable {}
+extension adxr_framework_v2.ADXRError : Swift.Hashable {}
