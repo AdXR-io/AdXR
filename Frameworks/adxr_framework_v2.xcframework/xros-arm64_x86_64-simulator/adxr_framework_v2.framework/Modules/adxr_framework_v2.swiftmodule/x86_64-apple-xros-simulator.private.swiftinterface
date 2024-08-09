@@ -44,6 +44,9 @@ import _SwiftConcurrencyShims
   #if compiler(>=5.3) && $AsyncAwait
   public func getAd(urlString: Swift.String, apiKey: Swift.String, secretKey: Swift.String) async throws
   #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func registerActivity(reason: adxr_framework_v2.AdClosureReason, time: Swift.Double) async
+  #endif
   public func reset()
   public func applyOverlay<T>(to view: T) -> some SwiftUI.View where T : SwiftUI.View
   
@@ -55,6 +58,18 @@ public enum ADXRError : Swift.Error {
   case invalidURL
   case invalidResponse
   public static func == (a: adxr_framework_v2.ADXRError, b: adxr_framework_v2.ADXRError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AdClosureReason {
+  case skip
+  case osButtonClose
+  case reportAd
+  case learnMore
+  case completed
+  public static func == (a: adxr_framework_v2.AdClosureReason, b: adxr_framework_v2.AdClosureReason) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
@@ -119,7 +134,7 @@ public class PlayerModel : Combine.ObservableObject {
   public typealias Body = Swift.Never
   public typealias UIViewControllerType = AVKit.AVPlayerViewController
 }
-public struct CustomInfoView : SwiftUI.View {
+@_Concurrency.MainActor(unsafe) public struct CustomInfoView : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
@@ -148,3 +163,5 @@ extension SwiftUI.View {
 }
 extension adxr_framework_v2.ADXRError : Swift.Equatable {}
 extension adxr_framework_v2.ADXRError : Swift.Hashable {}
+extension adxr_framework_v2.AdClosureReason : Swift.Equatable {}
+extension adxr_framework_v2.AdClosureReason : Swift.Hashable {}

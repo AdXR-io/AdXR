@@ -620,6 +620,38 @@
           },
           {
             "kind": "Function",
+            "name": "registerActivity",
+            "printedName": "registerActivity(reason:time:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdClosureReason",
+                "printedName": "adxr_framework_v2.AdClosureReason",
+                "usr": "s:17adxr_framework_v215AdClosureReasonO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v24ADXRC16registerActivity6reason4timeyAA15AdClosureReasonO_SdtYaF",
+            "mangledName": "$s17adxr_framework_v24ADXRC16registerActivity6reason4timeyAA15AdClosureReasonO_SdtYaF",
+            "moduleName": "adxr_framework_v2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "reset",
             "printedName": "reset()",
             "children": [
@@ -955,6 +987,317 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdClosureReason",
+        "printedName": "AdClosureReason",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "skip",
+            "printedName": "skip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(adxr_framework_v2.AdClosureReason.Type) -> adxr_framework_v2.AdClosureReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdClosureReason",
+                    "printedName": "adxr_framework_v2.AdClosureReason",
+                    "usr": "s:17adxr_framework_v215AdClosureReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "adxr_framework_v2.AdClosureReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdClosureReason",
+                        "printedName": "adxr_framework_v2.AdClosureReason",
+                        "usr": "s:17adxr_framework_v215AdClosureReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17adxr_framework_v215AdClosureReasonO4skipyA2CmF",
+            "mangledName": "$s17adxr_framework_v215AdClosureReasonO4skipyA2CmF",
+            "moduleName": "adxr_framework_v2"
+          },
+          {
+            "kind": "Var",
+            "name": "osButtonClose",
+            "printedName": "osButtonClose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(adxr_framework_v2.AdClosureReason.Type) -> adxr_framework_v2.AdClosureReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdClosureReason",
+                    "printedName": "adxr_framework_v2.AdClosureReason",
+                    "usr": "s:17adxr_framework_v215AdClosureReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "adxr_framework_v2.AdClosureReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdClosureReason",
+                        "printedName": "adxr_framework_v2.AdClosureReason",
+                        "usr": "s:17adxr_framework_v215AdClosureReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17adxr_framework_v215AdClosureReasonO13osButtonCloseyA2CmF",
+            "mangledName": "$s17adxr_framework_v215AdClosureReasonO13osButtonCloseyA2CmF",
+            "moduleName": "adxr_framework_v2"
+          },
+          {
+            "kind": "Var",
+            "name": "reportAd",
+            "printedName": "reportAd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(adxr_framework_v2.AdClosureReason.Type) -> adxr_framework_v2.AdClosureReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdClosureReason",
+                    "printedName": "adxr_framework_v2.AdClosureReason",
+                    "usr": "s:17adxr_framework_v215AdClosureReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "adxr_framework_v2.AdClosureReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdClosureReason",
+                        "printedName": "adxr_framework_v2.AdClosureReason",
+                        "usr": "s:17adxr_framework_v215AdClosureReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17adxr_framework_v215AdClosureReasonO06reportD0yA2CmF",
+            "mangledName": "$s17adxr_framework_v215AdClosureReasonO06reportD0yA2CmF",
+            "moduleName": "adxr_framework_v2"
+          },
+          {
+            "kind": "Var",
+            "name": "learnMore",
+            "printedName": "learnMore",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(adxr_framework_v2.AdClosureReason.Type) -> adxr_framework_v2.AdClosureReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdClosureReason",
+                    "printedName": "adxr_framework_v2.AdClosureReason",
+                    "usr": "s:17adxr_framework_v215AdClosureReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "adxr_framework_v2.AdClosureReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdClosureReason",
+                        "printedName": "adxr_framework_v2.AdClosureReason",
+                        "usr": "s:17adxr_framework_v215AdClosureReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17adxr_framework_v215AdClosureReasonO9learnMoreyA2CmF",
+            "mangledName": "$s17adxr_framework_v215AdClosureReasonO9learnMoreyA2CmF",
+            "moduleName": "adxr_framework_v2"
+          },
+          {
+            "kind": "Var",
+            "name": "completed",
+            "printedName": "completed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(adxr_framework_v2.AdClosureReason.Type) -> adxr_framework_v2.AdClosureReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdClosureReason",
+                    "printedName": "adxr_framework_v2.AdClosureReason",
+                    "usr": "s:17adxr_framework_v215AdClosureReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "adxr_framework_v2.AdClosureReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdClosureReason",
+                        "printedName": "adxr_framework_v2.AdClosureReason",
+                        "usr": "s:17adxr_framework_v215AdClosureReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17adxr_framework_v215AdClosureReasonO9completedyA2CmF",
+            "mangledName": "$s17adxr_framework_v215AdClosureReasonO9completedyA2CmF",
+            "moduleName": "adxr_framework_v2"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdClosureReason",
+                "printedName": "adxr_framework_v2.AdClosureReason",
+                "usr": "s:17adxr_framework_v215AdClosureReasonO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdClosureReason",
+                "printedName": "adxr_framework_v2.AdClosureReason",
+                "usr": "s:17adxr_framework_v215AdClosureReasonO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v215AdClosureReasonO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17adxr_framework_v215AdClosureReasonO2eeoiySbAC_ACtFZ",
+            "moduleName": "adxr_framework_v2",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17adxr_framework_v215AdClosureReasonO9hashValueSivp",
+            "mangledName": "$s17adxr_framework_v215AdClosureReasonO9hashValueSivp",
+            "moduleName": "adxr_framework_v2",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17adxr_framework_v215AdClosureReasonO9hashValueSivg",
+                "mangledName": "$s17adxr_framework_v215AdClosureReasonO9hashValueSivg",
+                "moduleName": "adxr_framework_v2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17adxr_framework_v215AdClosureReasonO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s17adxr_framework_v215AdClosureReasonO4hash4intoys6HasherVz_tF",
+            "moduleName": "adxr_framework_v2",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17adxr_framework_v215AdClosureReasonO",
+        "mangledName": "$s17adxr_framework_v215AdClosureReasonO",
+        "moduleName": "adxr_framework_v2",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -2141,6 +2484,7 @@
         "mangledName": "$s17adxr_framework_v214CustomInfoViewV",
         "moduleName": "adxr_framework_v2",
         "declAttributes": [
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
@@ -2556,42 +2900,42 @@
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 2814,
+      "offset": 3562,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 2863,
+      "offset": 3611,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 2912,
+      "offset": 3660,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "StringLiteral",
-      "offset": 7727,
+      "offset": 9493,
       "length": 11,
       "value": "\"adxr_framework_v2.Coordinator\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "BooleanLiteral",
-      "offset": 8516,
+      "offset": 10714,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_sdk\/adxr_framework_v2\/adxr_framework_v2\/ADXR.swift",
       "kind": "Array",
-      "offset": 10856,
+      "offset": 13369,
       "length": 127,
       "value": "[\"Inappropriate content\", \"Misleading information\", \"Poor video quality\", \"Audio issues\"]"
     }
