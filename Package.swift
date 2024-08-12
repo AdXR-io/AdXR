@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ADXRPackagev2",
+    name: "AdXR",
     platforms: [
         .iOS(.v14),
         .macOS(.v11)
@@ -10,11 +10,11 @@ let package = Package(
     products: [
         .library(
             name: "ADXRPackage",
-            targets: ["adxr_framework_v2"])
+            targets: ["adxr"])
     ],
     targets: [
         .binaryTarget(
-            name: "adxr_framework_v2",
-            path: "Frameworks/adxr_framework_v2.xcframework")
+            name: "adxr",
+            path: "Frameworks/adxr.xcframework")
     ]
 )
