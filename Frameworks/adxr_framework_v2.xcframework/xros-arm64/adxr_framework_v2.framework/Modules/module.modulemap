@@ -1,6 +1,0 @@
-framework module adxr_framework_v2 {
-  umbrella header "adxr_framework_v2.h"
-  export *
-
-  module * { export * }
-}
