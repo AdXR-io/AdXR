@@ -9,7 +9,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "ADXRPackage",
+            name: "AdXR",
             targets: ["adxr"])
     ],
     targets: [
