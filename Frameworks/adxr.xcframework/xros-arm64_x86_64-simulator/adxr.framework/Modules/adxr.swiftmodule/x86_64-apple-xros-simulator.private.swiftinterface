@@ -42,7 +42,7 @@ import _SwiftConcurrencyShims
     get
   }
   #if compiler(>=5.3) && $AsyncAwait
-  public func getAd(urlString: Swift.String, apiKey: Swift.String, secretKey: Swift.String) async throws
+  public func getAd(urlString: Swift.String, apiKey: Swift.String, secretKey: Swift.String, adName: Swift.String, adDescription: Swift.String) async throws
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func registerActivity(reason: adxr.AdClosureReason, time: Swift.Double) async
@@ -112,8 +112,20 @@ public class PlayerModel : Combine.ObservableObject {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
+  @Combine.Published @_projectedValueProperty($adName) public var adName: Swift.String {
+    get
+  }
+  public var $adName: Combine.Published<Swift.String>.Publisher {
+    get
+  }
+  @Combine.Published @_projectedValueProperty($adDescription) public var adDescription: Swift.String {
+    get
+  }
+  public var $adDescription: Combine.Published<Swift.String>.Publisher {
+    get
+  }
   public init()
-  public func loadVideo(url: Foundation.URL)
+  public func loadVideo(url: Foundation.URL, adName: Swift.String, adDescription: Swift.String)
   public func play()
   public func pause()
   public func reset()
