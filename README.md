@@ -1,6 +1,13 @@
+<p align="center">
+  <img alt="AdXR Logo" src="https://adxrblob1.blob.core.windows.net/container1/logo.png?sp=r&st=2024-08-15T21:46:38Z&se=2034-08-16T05:46:38Z&spr=https&sv=2022-11-02&sr=b&sig=UqydagO%2BwM9g4ARRBYImw767JFFAAgj1jK5dhO64ujo%3D" width="200">
+</p>
+
+
+-----------------
+
 # Developer Tools For Spatial Advertising
 
-YourLibraryName is a Swift library that [brief description of what your library does].
+The AdXR SDK is a Swift library that [brief description of what your library does].
 
 ## Table of Contents
 - [Features](#features)
