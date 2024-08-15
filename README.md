@@ -95,3 +95,7 @@ struct ADXRDemoApp: App {
 }
 
 ```
+
+## License
+
+This repository is not licensed for public use. All rights are reserved by AdXR. Unauthorized use, copying, modification, or distribution of this code or binaries is strictly prohibited.
