@@ -62,9 +62,6 @@ To use YourLibraryName, you'll need to generate API keys from our website. Follo
 After installing the package, import it in your Swift file:
 
 ```swift
-import YourLibraryName
-
-```swift
 import SwiftUI
 import adxr
 
