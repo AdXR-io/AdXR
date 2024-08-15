@@ -89,6 +89,15 @@ struct ADXRDemoApp: App {
 
 ```
 
+<p align="center">
+  <img alt="AdXR Logo" src="https://adxrblob1.blob.core.windows.net/container1/sample_learnmore.png?sp=r&st=2024-08-15T22:01:03Z&se=2034-08-16T06:01:03Z&spr=https&sv=2022-11-02&sr=b&sig=A8ifNrvg3HYYQBnpCCdu0NhfqjxX3wcQQG7QO5KcBw0%3D" width="80%">
+</p>
+
+<p align="center">
+  <img alt="AdXR Logo" src="https://adxrblob1.blob.core.windows.net/container1/sample_ad.png?sp=r&st=2024-08-15T22:00:00Z&se=2024-08-16T06:00:00Z&spr=https&sv=2022-11-02&sr=b&sig=JlwjlZGX2gVbeq5NhauWy4V1ZeKQALQ0mxQVyAPPqlc%3D" width="80%">
+</p>
+
+
 ## License
 
 This repository is not licensed for public use. All rights are reserved by AdXR. Unauthorized use, copying, modification, or distribution of this code or binaries is strictly prohibited.
