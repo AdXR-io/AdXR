@@ -1,9 +1,6 @@
 <p align="center">
-  <img alt="AdXR Logo" src="https://adxrblob1.blob.core.windows.net/container1/logo.png?sp=r&st=2024-08-15T21:46:38Z&se=2034-08-16T05:46:38Z&spr=https&sv=2022-11-02&sr=b&sig=UqydagO%2BwM9g4ARRBYImw767JFFAAgj1jK5dhO64ujo%3D" width="200">
+  <img alt="AdXR Logo" src="https://adxrblob1.blob.core.windows.net/container1/logo.png?sp=r&st=2024-08-15T21:46:38Z&se=2034-08-16T05:46:38Z&spr=https&sv=2022-11-02&sr=b&sig=UqydagO%2BwM9g4ARRBYImw767JFFAAgj1jK5dhO64ujo%3D" width="25%">
 </p>
-
-
------------------
 
 # Developer Tools For Spatial Advertising
 
@@ -15,10 +12,7 @@ The AdXR SDK is a Swift library that [brief description of what your library doe
 - [Installation](#installation)
 - [Getting Started](#getting-started)
   - [Generating API Keys](#generating-api-keys)
-  - [Importing the Package](#importing-the-package)
 - [Usage](#usage)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -47,20 +41,21 @@ AdXR can be installed using the Swift Package Manager.
 
 To use YourLibraryName, you'll need to generate API keys from our website. Follow these steps:
 
-1. Go to [Your Website URL]
+1. Go to `https://www.adxr.io`
 2. Sign up or log in to your developer account
 3. Navigate to the API Keys section
+<p align="center">
+  <img alt="AdXR Logo" src="https://adxrblob1.blob.core.windows.net/container1/dev_dashboard.png?sp=r&st=2024-08-15T21:52:52Z&se=2034-08-16T05:52:52Z&spr=https&sv=2022-11-02&sr=b&sig=ZZPBiBLorsimPU3eCJZg4XWWHasf6eNysGhVnFUpWqQ%3D" width="80%">
+</p>
+   
 4. Click on "New Key"
+<p align="center">
+  <img alt="AdXR Logo" src="https://adxrblob1.blob.core.windows.net/container1/key_gen.png?sp=r&st=2024-08-15T21:53:24Z&se=2034-08-16T05:53:24Z&spr=https&sv=2022-11-02&sr=b&sig=k4P1T73SC4xguUMqfl7UNeF4xgsofe1S17jvXThRetk%3D" width="80%">
+</p>
 
-[Insert image of the API Keys section on your website]
+5. Save your newly generated API key pair.
 
-5. Copy your newly generated API key
-
-[Insert image showing where to copy the API key]
-
-### Importing the Package
-
-After installing the package, import it in your Swift file:
+## Usage
 
 ```swift
 import SwiftUI
