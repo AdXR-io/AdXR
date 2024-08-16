@@ -2435,34 +2435,6 @@
                 "funcSelfKind": "NonMutating"
               },
               {
-                "kind": "Function",
-                "name": "playerViewControllerDidStopPictureInPicture",
-                "printedName": "playerViewControllerDidStopPictureInPicture(_:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AVPlayerViewController",
-                    "printedName": "AVKit.AVPlayerViewController",
-                    "usr": "c:objc(cs)AVPlayerViewController"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:4adxr10PlayerViewV11CoordinatorC06playerc26ControllerDidStopPictureInI0yySo08AVPlayercF0CF",
-                "mangledName": "$s4adxr10PlayerViewV11CoordinatorC06playerc26ControllerDidStopPictureInI0yySo08AVPlayercF0CF",
-                "moduleName": "adxr",
-                "objc_name": "playerViewControllerDidStopPictureInPicture:",
-                "declAttributes": [
-                  "ObjC",
-                  "AccessControl"
-                ],
-                "funcSelfKind": "NonMutating"
-              },
-              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init()",
@@ -3141,21 +3113,21 @@
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 10102,
+      "offset": 9894,
       "length": 11,
       "value": "\"adxr.Coordinator\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 11323,
+      "offset": 10667,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "Array",
-      "offset": 13982,
+      "offset": 13369,
       "length": 127,
       "value": "[\"Inappropriate content\", \"Misleading information\", \"Poor video quality\", \"Audio issues\"]"
     }
