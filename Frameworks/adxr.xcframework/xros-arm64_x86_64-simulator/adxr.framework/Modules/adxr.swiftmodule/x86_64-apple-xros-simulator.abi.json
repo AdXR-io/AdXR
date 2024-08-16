@@ -633,7 +633,7 @@
           {
             "kind": "Function",
             "name": "registerActivity",
-            "printedName": "registerActivity(reason:time:)",
+            "printedName": "registerActivity(reason:time:reportReason:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -651,11 +651,26 @@
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:4adxr4ADXRC16registerActivity6reason4timeyAA15AdClosureReasonO_SdtYaF",
-            "mangledName": "$s4adxr4ADXRC16registerActivity6reason4timeyAA15AdClosureReasonO_SdtYaF",
+            "usr": "s:4adxr4ADXRC16registerActivity6reason4time12reportReasonyAA09AdClosureH0O_SdSSSgtYaF",
+            "mangledName": "$s4adxr4ADXRC16registerActivity6reason4time12reportReasonyAA09AdClosureH0O_SdSSSgtYaF",
             "moduleName": "adxr",
             "declAttributes": [
               "AccessControl"
@@ -2775,6 +2790,7 @@
         "mangledName": "$s4adxr17ReportOptionsViewV",
         "moduleName": "adxr",
         "declAttributes": [
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
@@ -3090,56 +3106,56 @@
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 3647,
+      "offset": 3809,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 3696,
+      "offset": 3858,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 3745,
+      "offset": 3907,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 3807,
+      "offset": 3969,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 3873,
+      "offset": 4035,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 9940,
+      "offset": 10102,
       "length": 11,
       "value": "\"adxr.Coordinator\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 11161,
+      "offset": 11323,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "Array",
-      "offset": 13758,
+      "offset": 13982,
       "length": 127,
       "value": "[\"Inappropriate content\", \"Misleading information\", \"Poor video quality\", \"Audio issues\"]"
     }

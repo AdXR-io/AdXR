@@ -45,7 +45,7 @@ import _SwiftConcurrencyShims
   public func getAd(urlString: Swift.String, apiKey: Swift.String, secretKey: Swift.String, adName: Swift.String, adDescription: Swift.String) async throws
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func registerActivity(reason: adxr.AdClosureReason, time: Swift.Double) async
+  public func registerActivity(reason: adxr.AdClosureReason, time: Swift.Double, reportReason: Swift.String? = nil) async
   #endif
   public func reset()
   public func applyOverlay<T>(to view: T) -> some SwiftUI.View where T : SwiftUI.View
@@ -152,7 +152,7 @@ public class PlayerModel : Combine.ObservableObject {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s4adxr14CustomInfoViewV4bodyQrvp", 0) __
 }
-public struct ReportOptionsView : SwiftUI.View {
+@_Concurrency.MainActor(unsafe) public struct ReportOptionsView : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
