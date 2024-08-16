@@ -4,7 +4,7 @@
 
 # Developer Tools For Spatial Advertising
 
-The AdXR SDK is a Swift library that [brief description of what your library does].
+The AdXR SDK is a Swift library that allows for the monetization of Vision Pro developer apps by embedding spatial video advertisements.
 
 ## Table of Contents
 - [Features](#features)
@@ -17,9 +17,9 @@ The AdXR SDK is a Swift library that [brief description of what your library doe
 
 ## Features
 
-- [List key features of your library]
-- 
-- 
+- Full-screen overlay
+- Support for spatial video shot on both iPhone and Vision Pro
+- Choice of when and where to call and display advertisements
 
 ## Requirements
 
@@ -39,7 +39,7 @@ AdXR can be installed using the Swift Package Manager.
 
 ### Generating API Keys
 
-To use YourLibraryName, you'll need to generate API keys from our website. Follow these steps:
+To use AdXR, you'll need to generate API keys from our website. Follow these steps:
 
 1. Go to `https://www.adxr.io`
 2. Sign up or log in to your developer account
