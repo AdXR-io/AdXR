@@ -57,6 +57,7 @@ To use AdXR, you'll need to generate API keys from our website. Follow these ste
 
 ## Usage
 
+Calling the `getAd()` function directly: 
 ```swift
 import SwiftUI
 import adxr
@@ -87,6 +88,41 @@ struct ADXRDemoApp: App {
     }
 }
 
+```
+
+Use the `.withADXR()` view modifier to allow spatial ads to appear on screen:
+
+```swift
+struct ContentView: View {
+    @StateObject private var adManager = ADXR.shared
+    
+    var body: some View {
+        VStack(spacing: 20) {
+            Text("AdXR Demo App")
+                .font(.largeTitle)
+                .padding()
+            
+            Button("Show Ad 1") {
+                showAd()
+            }
+            .buttonStyle(HoverEffectButtonStyle())
+        }
+        .withADXR()  // This applies the ADXR view modifier
+    }
+    
+    private func showAd(urlString: String, adName: String, adDescription: String) {
+        Task {
+            do {
+                try await adManager.getAd(
+                    apiKey: API_KEY,
+                    secretKey: SECRET_KEY,
+                )
+            } catch {
+                print("Error showing ad: \(error)")
+            }
+        }
+    }
+}
 ```
 
 <p align="center">
