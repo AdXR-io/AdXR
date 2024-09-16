@@ -35,6 +35,30 @@ import _SwiftConcurrencyShims
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
+  @Combine.Published @_projectedValueProperty($showCustomInfo) public var showCustomInfo: Swift.Bool {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  public var $showCustomInfo: Combine.Published<Swift.Bool>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  @Combine.Published @_projectedValueProperty($videoEnded) public var videoEnded: Swift.Bool {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  public var $videoEnded: Combine.Published<Swift.Bool>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
   @Combine.Published @_projectedValueProperty($playerModel) public var playerModel: adxr.PlayerModel {
     get
   }
@@ -59,6 +83,7 @@ import _SwiftConcurrencyShims
   #if compiler(>=5.3) && $AsyncAwait
   public func registerActivity(reason: adxr.AdClosureReason, time: Swift.Double, reportReason: Swift.String? = nil) async
   #endif
+  public func handleVideoEnd()
   public func reset()
   public func applyOverlay<T>(to view: T) -> some SwiftUI.View where T : SwiftUI.View
   
