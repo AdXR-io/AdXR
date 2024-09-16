@@ -41,8 +41,14 @@ import _SwiftConcurrencyShims
   public var $playerModel: Combine.Published<adxr.PlayerModel>.Publisher {
     get
   }
+  @Combine.Published @_projectedValueProperty($adTags) public var adTags: [Swift.String] {
+    get
+  }
+  public var $adTags: Combine.Published<[Swift.String]>.Publisher {
+    get
+  }
   #if compiler(>=5.3) && $AsyncAwait
-  public func getAd(urlString: Swift.String, apiKey: Swift.String, secretKey: Swift.String, adName: Swift.String, adDescription: Swift.String) async throws
+  public func getAd(apiKey: Swift.String, secretKey: Swift.String) async throws
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func registerActivity(reason: adxr.AdClosureReason, time: Swift.Double, reportReason: Swift.String? = nil) async
@@ -57,11 +63,9 @@ public enum ADXRError : Swift.Error {
   case invalidCredentials
   case invalidURL
   case invalidResponse
-  public static func == (a: adxr.ADXRError, b: adxr.ADXRError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
+  case badRequest
+  case serverError(statusCode: Swift.Int)
+  case missingData
 }
 public enum AdClosureReason {
   case skip
@@ -172,7 +176,5 @@ extension SwiftUI.View {
   public func withADXR() -> some SwiftUI.View
   
 }
-extension adxr.ADXRError : Swift.Equatable {}
-extension adxr.ADXRError : Swift.Hashable {}
 extension adxr.AdClosureReason : Swift.Equatable {}
 extension adxr.AdClosureReason : Swift.Hashable {}

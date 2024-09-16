@@ -580,9 +580,108 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "adTags",
+            "printedName": "adTags",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4adxr4ADXRC6adTagsSaySSGvp",
+            "mangledName": "$s4adxr4ADXRC6adTagsSaySSGvp",
+            "moduleName": "adxr",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4adxr4ADXRC6adTagsSaySSGvg",
+                "mangledName": "$s4adxr4ADXRC6adTagsSaySSGvg",
+                "moduleName": "adxr",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$adTags",
+            "printedName": "$adTags",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Array<Swift.String>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4adxr4ADXRC7$adTags7Combine9PublishedV9PublisherVySaySSG_Gvp",
+            "mangledName": "$s4adxr4ADXRC7$adTags7Combine9PublishedV9PublisherVySaySSG_Gvp",
+            "moduleName": "adxr",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.String>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4adxr4ADXRC7$adTags7Combine9PublishedV9PublisherVySaySSG_Gvg",
+                "mangledName": "$s4adxr4ADXRC7$adTags7Combine9PublishedV9PublisherVySaySSG_Gvg",
+                "moduleName": "adxr",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "getAd",
-            "printedName": "getAd(urlString:apiKey:secretKey:adName:adDescription:)",
+            "printedName": "getAd(apiKey:secretKey:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -600,29 +699,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:4adxr4ADXRC5getAd9urlString6apiKey06secretH06adName0J11DescriptionySS_S4StYaKF",
-            "mangledName": "$s4adxr4ADXRC5getAd9urlString6apiKey06secretH06adName0J11DescriptionySS_S4StYaKF",
+            "usr": "s:4adxr4ADXRC5getAd6apiKey06secretF0ySS_SStYaKF",
+            "mangledName": "$s4adxr4ADXRC5getAd6apiKey06secretF0ySS_SStYaKF",
             "moduleName": "adxr",
             "declAttributes": [
               "AccessControl"
@@ -883,100 +964,135 @@
             "moduleName": "adxr"
           },
           {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ADXRError",
-                "printedName": "adxr.ADXRError",
-                "usr": "s:4adxr9ADXRErrorO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ADXRError",
-                "printedName": "adxr.ADXRError",
-                "usr": "s:4adxr9ADXRErrorO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:4adxr9ADXRErrorO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s4adxr9ADXRErrorO2eeoiySbAC_ACtFZ",
-            "moduleName": "adxr",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
+            "name": "badRequest",
+            "printedName": "badRequest",
             "children": [
               {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:4adxr9ADXRErrorO9hashValueSivp",
-            "mangledName": "$s4adxr9ADXRErrorO9hashValueSivp",
-            "moduleName": "adxr",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(adxr.ADXRError.Type) -> adxr.ADXRError",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "ADXRError",
+                    "printedName": "adxr.ADXRError",
+                    "usr": "s:4adxr9ADXRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "adxr.ADXRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ADXRError",
+                        "printedName": "adxr.ADXRError",
+                        "usr": "s:4adxr9ADXRErrorO"
+                      }
+                    ]
                   }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:4adxr9ADXRErrorO9hashValueSivg",
-                "mangledName": "$s4adxr9ADXRErrorO9hashValueSivg",
-                "moduleName": "adxr",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
+                ]
               }
             ],
-            "declKind": "Func",
-            "usr": "s:4adxr9ADXRErrorO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s4adxr9ADXRErrorO4hash4intoys6HasherVz_tF",
-            "moduleName": "adxr",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
+            "declKind": "EnumElement",
+            "usr": "s:4adxr9ADXRErrorO10badRequestyA2CmF",
+            "mangledName": "$s4adxr9ADXRErrorO10badRequestyA2CmF",
+            "moduleName": "adxr"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(adxr.ADXRError.Type) -> (Swift.Int) -> adxr.ADXRError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> adxr.ADXRError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ADXRError",
+                        "printedName": "adxr.ADXRError",
+                        "usr": "s:4adxr9ADXRErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "adxr.ADXRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ADXRError",
+                        "printedName": "adxr.ADXRError",
+                        "usr": "s:4adxr9ADXRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4adxr9ADXRErrorO11serverErroryACSi_tcACmF",
+            "mangledName": "$s4adxr9ADXRErrorO11serverErroryACSi_tcACmF",
+            "moduleName": "adxr"
+          },
+          {
+            "kind": "Var",
+            "name": "missingData",
+            "printedName": "missingData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(adxr.ADXRError.Type) -> adxr.ADXRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ADXRError",
+                    "printedName": "adxr.ADXRError",
+                    "usr": "s:4adxr9ADXRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "adxr.ADXRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ADXRError",
+                        "printedName": "adxr.ADXRError",
+                        "usr": "s:4adxr9ADXRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4adxr9ADXRErrorO11missingDatayA2CmF",
+            "mangledName": "$s4adxr9ADXRErrorO11missingDatayA2CmF",
+            "moduleName": "adxr"
           }
         ],
         "declKind": "Enum",
@@ -987,20 +1103,6 @@
           "AccessControl"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -3077,57 +3179,64 @@
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
+      "kind": "Array",
+      "offset": 437,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 3975,
+      "offset": 5815,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 4024,
+      "offset": 5864,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 4073,
+      "offset": 5913,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 4135,
+      "offset": 5975,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 4201,
+      "offset": 6041,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 10335,
+      "offset": 12175,
       "length": 11,
       "value": "\"adxr.Coordinator\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 11108,
+      "offset": 12948,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "Array",
-      "offset": 13926,
+      "offset": 15766,
       "length": 127,
       "value": "[\"Inappropriate content\", \"Misleading information\", \"Poor video quality\", \"Audio issues\"]"
     }
