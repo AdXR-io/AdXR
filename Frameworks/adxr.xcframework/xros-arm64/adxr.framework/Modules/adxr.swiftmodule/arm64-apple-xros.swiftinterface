@@ -165,6 +165,7 @@ public class PlayerModel : Combine.ObservableObject {
   public func pause()
   public func reset()
   public func seekToBeginning()
+  public func pauseOnLastFrame()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
