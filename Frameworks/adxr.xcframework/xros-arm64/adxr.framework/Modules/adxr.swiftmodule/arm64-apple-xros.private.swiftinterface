@@ -47,6 +47,12 @@ import _SwiftConcurrencyShims
   public var $adTags: Combine.Published<[Swift.String]>.Publisher {
     get
   }
+  @Combine.Published @_projectedValueProperty($campaignURL) public var campaignURL: Swift.String {
+    get
+  }
+  public var $campaignURL: Combine.Published<Swift.String>.Publisher {
+    get
+  }
   #if compiler(>=5.3) && $AsyncAwait
   public func getAd(apiKey: Swift.String, secretKey: Swift.String) async throws
   #endif

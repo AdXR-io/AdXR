@@ -679,6 +679,89 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "campaignURL",
+            "printedName": "campaignURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4adxr4ADXRC11campaignURLSSvp",
+            "mangledName": "$s4adxr4ADXRC11campaignURLSSvp",
+            "moduleName": "adxr",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4adxr4ADXRC11campaignURLSSvg",
+                "mangledName": "$s4adxr4ADXRC11campaignURLSSvg",
+                "moduleName": "adxr",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$campaignURL",
+            "printedName": "$campaignURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.String>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4adxr4ADXRC12$campaignURL7Combine9PublishedV9PublisherVySS_Gvp",
+            "mangledName": "$s4adxr4ADXRC12$campaignURL7Combine9PublishedV9PublisherVySS_Gvp",
+            "moduleName": "adxr",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.String>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4adxr4ADXRC12$campaignURL7Combine9PublishedV9PublisherVySS_Gvg",
+                "mangledName": "$s4adxr4ADXRC12$campaignURL7Combine9PublishedV9PublisherVySS_Gvg",
+                "moduleName": "adxr",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "getAd",
             "printedName": "getAd(apiKey:secretKey:)",
@@ -3186,57 +3269,64 @@
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
+      "kind": "StringLiteral",
+      "offset": 501,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 5815,
+      "offset": 6097,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 5864,
+      "offset": 6146,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 5913,
+      "offset": 6195,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 5975,
+      "offset": 6257,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 6041,
+      "offset": 6323,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 12175,
+      "offset": 12457,
       "length": 11,
       "value": "\"adxr.Coordinator\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 12948,
+      "offset": 13230,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "Array",
-      "offset": 15766,
+      "offset": 16048,
       "length": 127,
       "value": "[\"Inappropriate content\", \"Misleading information\", \"Poor video quality\", \"Audio issues\"]"
     }
