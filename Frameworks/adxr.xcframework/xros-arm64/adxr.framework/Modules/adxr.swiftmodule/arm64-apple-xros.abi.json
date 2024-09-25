@@ -907,6 +907,212 @@
           },
           {
             "kind": "Var",
+            "name": "adState",
+            "printedName": "adState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdState",
+                "printedName": "adxr.ADXR.AdState",
+                "usr": "s:4adxr4ADXRC7AdStateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4adxr4ADXRC7adStateAC02AdD0Ovp",
+            "mangledName": "$s4adxr4ADXRC7adStateAC02AdD0Ovp",
+            "moduleName": "adxr",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdState",
+                    "printedName": "adxr.ADXR.AdState",
+                    "usr": "s:4adxr4ADXRC7AdStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4adxr4ADXRC7adStateAC02AdD0Ovg",
+                "mangledName": "$s4adxr4ADXRC7adStateAC02AdD0Ovg",
+                "moduleName": "adxr",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdState",
+                    "printedName": "adxr.ADXR.AdState",
+                    "usr": "s:4adxr4ADXRC7AdStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4adxr4ADXRC7adStateAC02AdD0Ovs",
+                "mangledName": "$s4adxr4ADXRC7adStateAC02AdD0Ovs",
+                "moduleName": "adxr",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4adxr4ADXRC7adStateAC02AdD0OvM",
+                "mangledName": "$s4adxr4ADXRC7adStateAC02AdD0OvM",
+                "moduleName": "adxr",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$adState",
+            "printedName": "$adState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<adxr.ADXR.AdState>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4adxr4ADXRC8$adState7Combine9PublishedV9PublisherVyAC02AdD0O_Gvp",
+            "mangledName": "$s4adxr4ADXRC8$adState7Combine9PublishedV9PublisherVyAC02AdD0O_Gvp",
+            "moduleName": "adxr",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<adxr.ADXR.AdState>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4adxr4ADXRC8$adState7Combine9PublishedV9PublisherVyAC02AdD0O_Gvg",
+                "mangledName": "$s4adxr4ADXRC8$adState7Combine9PublishedV9PublisherVyAC02AdD0O_Gvg",
+                "moduleName": "adxr",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<adxr.ADXR.AdState>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4adxr4ADXRC8$adState7Combine9PublishedV9PublisherVyAC02AdD0O_Gvs",
+                "mangledName": "$s4adxr4ADXRC8$adState7Combine9PublishedV9PublisherVyAC02AdD0O_Gvs",
+                "moduleName": "adxr",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4adxr4ADXRC8$adState7Combine9PublishedV9PublisherVyAC02AdD0O_GvM",
+                "mangledName": "$s4adxr4ADXRC8$adState7Combine9PublishedV9PublisherVyAC02AdD0O_GvM",
+                "moduleName": "adxr",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "playerModel",
             "printedName": "playerModel",
             "children": [
@@ -1167,6 +1373,243 @@
                 "moduleName": "adxr",
                 "implicit": true,
                 "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "AdState",
+            "printedName": "AdState",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "notStarted",
+                "printedName": "notStarted",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(adxr.ADXR.AdState.Type) -> adxr.ADXR.AdState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdState",
+                        "printedName": "adxr.ADXR.AdState",
+                        "usr": "s:4adxr4ADXRC7AdStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "adxr.ADXR.AdState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdState",
+                            "printedName": "adxr.ADXR.AdState",
+                            "usr": "s:4adxr4ADXRC7AdStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:4adxr4ADXRC7AdStateO10notStartedyA2EmF",
+                "mangledName": "$s4adxr4ADXRC7AdStateO10notStartedyA2EmF",
+                "moduleName": "adxr"
+              },
+              {
+                "kind": "Var",
+                "name": "started",
+                "printedName": "started",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(adxr.ADXR.AdState.Type) -> adxr.ADXR.AdState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdState",
+                        "printedName": "adxr.ADXR.AdState",
+                        "usr": "s:4adxr4ADXRC7AdStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "adxr.ADXR.AdState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdState",
+                            "printedName": "adxr.ADXR.AdState",
+                            "usr": "s:4adxr4ADXRC7AdStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:4adxr4ADXRC7AdStateO7startedyA2EmF",
+                "mangledName": "$s4adxr4ADXRC7AdStateO7startedyA2EmF",
+                "moduleName": "adxr"
+              },
+              {
+                "kind": "Var",
+                "name": "completed",
+                "printedName": "completed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(adxr.ADXR.AdState.Type) -> adxr.ADXR.AdState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdState",
+                        "printedName": "adxr.ADXR.AdState",
+                        "usr": "s:4adxr4ADXRC7AdStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "adxr.ADXR.AdState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdState",
+                            "printedName": "adxr.ADXR.AdState",
+                            "usr": "s:4adxr4ADXRC7AdStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:4adxr4ADXRC7AdStateO9completedyA2EmF",
+                "mangledName": "$s4adxr4ADXRC7AdStateO9completedyA2EmF",
+                "moduleName": "adxr"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdState",
+                    "printedName": "adxr.ADXR.AdState",
+                    "usr": "s:4adxr4ADXRC7AdStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdState",
+                    "printedName": "adxr.ADXR.AdState",
+                    "usr": "s:4adxr4ADXRC7AdStateO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:4adxr4ADXRC7AdStateO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s4adxr4ADXRC7AdStateO2eeoiySbAE_AEtFZ",
+                "moduleName": "adxr",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:4adxr4ADXRC7AdStateO9hashValueSivp",
+                "mangledName": "$s4adxr4ADXRC7AdStateO9hashValueSivp",
+                "moduleName": "adxr",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:4adxr4ADXRC7AdStateO9hashValueSivg",
+                    "mangledName": "$s4adxr4ADXRC7AdStateO9hashValueSivg",
+                    "moduleName": "adxr",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:4adxr4ADXRC7AdStateO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s4adxr4ADXRC7AdStateO4hash4intoys6HasherVz_tF",
+                "moduleName": "adxr",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:4adxr4ADXRC7AdStateO",
+            "mangledName": "$s4adxr4ADXRC7AdStateO",
+            "moduleName": "adxr",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -3726,70 +4169,70 @@
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "Array",
-      "offset": 460,
+      "offset": 517,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 524,
+      "offset": 581,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 6513,
+      "offset": 8517,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 6562,
+      "offset": 8566,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 6611,
+      "offset": 8615,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 6673,
+      "offset": 8677,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 6739,
+      "offset": 8743,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 13264,
+      "offset": 15268,
       "length": 11,
       "value": "\"adxr.Coordinator\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 14086,
+      "offset": 16090,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "Array",
-      "offset": 17476,
+      "offset": 19480,
       "length": 127,
       "value": "[\"Inappropriate content\", \"Misleading information\", \"Poor video quality\", \"Audio issues\"]"
     }

@@ -59,6 +59,18 @@ import _SwiftConcurrencyShims
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
+  @Combine.Published @_projectedValueProperty($adState) public var adState: adxr.ADXR.AdState {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  public var $adState: Combine.Published<adxr.ADXR.AdState>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
   @Combine.Published @_projectedValueProperty($playerModel) public var playerModel: adxr.PlayerModel {
     get
   }
@@ -76,6 +88,16 @@ import _SwiftConcurrencyShims
   }
   public var $campaignURL: Combine.Published<Swift.String>.Publisher {
     get
+  }
+  public enum AdState {
+    case notStarted
+    case started
+    case completed
+    public static func == (a: adxr.ADXR.AdState, b: adxr.ADXR.AdState) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
   }
   #if compiler(>=5.3) && $AsyncAwait
   public func getAd(apiKey: Swift.String, secretKey: Swift.String) async throws
@@ -208,5 +230,7 @@ extension SwiftUI.View {
   public func withADXR() -> some SwiftUI.View
   
 }
+extension adxr.ADXR.AdState : Swift.Equatable {}
+extension adxr.ADXR.AdState : Swift.Hashable {}
 extension adxr.AdClosureReason : Swift.Equatable {}
 extension adxr.AdClosureReason : Swift.Hashable {}
