@@ -3292,56 +3292,56 @@
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 11466,
+      "offset": 11470,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 11515,
+      "offset": 11519,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 11564,
+      "offset": 11568,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 11626,
+      "offset": 11630,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 11692,
+      "offset": 11696,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 18036,
+      "offset": 18040,
       "length": 11,
       "value": "\"adxr.Coordinator\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 18809,
+      "offset": 18813,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "Array",
-      "offset": 21627,
+      "offset": 21631,
       "length": 127,
       "value": "[\"Inappropriate content\", \"Misleading information\", \"Poor video quality\", \"Audio issues\"]"
     }
