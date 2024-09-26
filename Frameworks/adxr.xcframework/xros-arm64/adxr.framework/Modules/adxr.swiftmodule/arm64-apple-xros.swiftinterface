@@ -35,6 +35,12 @@ import _SwiftConcurrencyShims
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
+  @Combine.Published @_projectedValueProperty($campaignUrl) public var campaignUrl: Swift.String {
+    get
+  }
+  public var $campaignUrl: Combine.Published<Swift.String>.Publisher {
+    get
+  }
   @Combine.Published @_projectedValueProperty($playerModel) public var playerModel: adxr.PlayerModel {
     get
   }
