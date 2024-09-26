@@ -55,7 +55,6 @@ import _SwiftConcurrencyShims
   public var $adTags: Combine.Published<[Swift.String]>.Publisher {
     get
   }
-  public func completeAdInteraction()
   #if compiler(>=5.3) && $AsyncAwait
   public func getAd(apiKey: Swift.String, secretKey: Swift.String) async throws
   #endif
