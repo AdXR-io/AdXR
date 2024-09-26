@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/adxr.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<data>
-		uPzVWzwcFRNm9rkEihjIJN9b1PY=
+		uCXpEQ+Wc+R8LGbRQETpPcEcDZc=
 		</data>
 		<key>Modules/adxr.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/adxr.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
 		<data>
-		uPzVWzwcFRNm9rkEihjIJN9b1PY=
+		uCXpEQ+Wc+R8LGbRQETpPcEcDZc=
 		</data>
 		<key>Modules/adxr.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aOcqSjwtF1TY0xAw920OhJozwYy8YsvoImNjiQgm0NA=
+			WePeBrdHIPMCjEU26rVzpVcChpX5n0IDst/3QVoLEhs=
 			</data>
 		</dict>
 		<key>Modules/adxr.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
@@ -105,7 +105,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aOcqSjwtF1TY0xAw920OhJozwYy8YsvoImNjiQgm0NA=
+			WePeBrdHIPMCjEU26rVzpVcChpX5n0IDst/3QVoLEhs=
 			</data>
 		</dict>
 		<key>Modules/adxr.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
