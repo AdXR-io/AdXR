@@ -152,6 +152,7 @@ public class PlayerModel : Combine.ObservableObject {
   @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> adxr.PlayerView.Coordinator
   @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, AVKit.AVPlayerViewControllerDelegate {
     public func playerViewControllerWillDismiss(_ playerViewController: AVKit.AVPlayerViewController)
+    @objc public func playerViewControllerDidEndPlayback(_ playerViewController: AVKit.AVPlayerViewController)
     @objc deinit
   }
   public typealias Body = Swift.Never
