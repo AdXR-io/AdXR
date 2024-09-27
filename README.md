@@ -57,80 +57,77 @@ To use AdXR, you'll need to generate API keys from our website. Follow these ste
 
 ## Usage
 
-Calling the `getAd()` function directly: 
+Go the /examples folder to see how AdXR's SDK can be integrated into VisionOS apps.
+
+### Importing and creating an adManager
 ```swift
 import SwiftUI
 import adxr
 
-private let API_KEY = "foo"
-private let SECRET_KEY = "bar"
+private let API_KEY = "YOUR_API_KEY_HERE"
+private let SECRET_KEY = "YOUR_SECRET_KEY_HERE"
 
 struct ContentView: View {
   @StateObject private var adManager = ADXR.shared
 
-  do {
-    try await adManager.getAd(
-      apiKey: API_KEY,
-      secretKey: SECRET_KEY
-      )
-    } catch {
-      print("Error showing ad: \(error)")
-    }
-  }
 }
-
-@main
-struct ADXRDemoApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
-
 ```
-
-Use the `.withADXR()` view modifier to allow spatial ads to appear on screen:
-
+Note that the ad being displayed is asynchronous. Developers may choose to build logic around this 'await' to seemlesly integrate ads into their user experience.
 ```swift
-struct ContentView: View {
-    @StateObject private var adManager = ADXR.shared
-    
-    var body: some View {
-        VStack(spacing: 20) {
-            Text("AdXR Demo App")
-                .font(.largeTitle)
-                .padding()
-            
-            Button("Show Ad 1") {
-                showAd()
-            }
-            .buttonStyle(HoverEffectButtonStyle())
-        }
-        .withADXR()  // This applies the ADXR view modifier
-    }
-    
-    private func showAd(urlString: String, adName: String, adDescription: String) {
-        Task {
-            do {
-                try await adManager.getAd(
-                    apiKey: API_KEY,
-                    secretKey: SECRET_KEY,
-                )
-            } catch {
-                print("Error showing ad: \(error)")
-            }
+private func showAd() {
+    Task {
+        do {
+            try await adManager.getAd(apiKey: API_KEY, secretKey: SECRET_KEY)
+            // Ad playback completed
+        } catch {
+            print("Error showing ad: \(error)")
         }
     }
 }
 ```
+
+### Applying the ADXR View Modifier
+Use the ```.withADXR()``` view modifier to enable spatial ad display:
+```swift
+var body: some View {
+    VStack {
+        // Your view content here
+    }
+    .withADXR()  // This applies the ADXR view modifier
+}
+```
+
+### Important Features
+- Pre and Post Ad Processes: You can add custom logic before and after displaying an ad.
+- Error Handling: The getAd() function is wrapped in a do-catch block to handle potential errors.
+- Asynchronous Execution: The showAd() function uses Swift's async/await pattern for non-blocking ad display.
+```swift
+private func showAd() {
+    Task {
+        // Pre-ad process
+        print("Preparing to show ad...")
+        
+        do {
+            try await adManager.getAd(apiKey: API_KEY, secretKey: SECRET_KEY)
+            
+            // Post-ad process
+            print("Ad playback completed")
+            print("Performing post-ad actions...")
+        } catch {
+            print("Error showing ad: \(error)")
+        }
+    }
+}
+```
+
+
 
 <p align="center">
   <img alt="AdXR Logo" src="https://adxrblob1.blob.core.windows.net/container1/sample_learnmore.png?sp=r&st=2024-08-15T22:01:03Z&se=2034-08-16T06:01:03Z&spr=https&sv=2022-11-02&sr=b&sig=A8ifNrvg3HYYQBnpCCdu0NhfqjxX3wcQQG7QO5KcBw0%3D" width="80%">
 </p>
 
 <p align="center">
-  <img alt="AdXR Logo" src="https://adxrblob1.blob.core.windows.net/container1/sample_ad.png?sp=r&st=2024-08-15T22:00:00Z&se=2024-08-16T06:00:00Z&spr=https&sv=2022-11-02&sr=b&sig=JlwjlZGX2gVbeq5NhauWy4V1ZeKQALQ0mxQVyAPPqlc%3D" width="80%">
+  <img alt="AdXR Logo2" src="https://adxrblob1.blob.core.windows.net/container1/AdXR%20Developer%20Still%20Shot%201.jpg?sp=r&st=2024-08-22T02:55:18Z&se=2034-08-22T10:55:18Z&spr=https&sv=2022-11-02&sr=b&sig=Yx0NwhyQSMixJfT0Lgldu0OJGFPjai7DnD7cILbyx9s%3D" width="80%">
 </p>
 
 
