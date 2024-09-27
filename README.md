@@ -122,9 +122,7 @@ private func showAd() {
 
 
 
-<p align="center">
-  <img alt="AdXR Logo" src="https://adxrblob1.blob.core.windows.net/container1/sample_learnmore.png?sp=r&st=2024-08-15T22:01:03Z&se=2034-08-16T06:01:03Z&spr=https&sv=2022-11-02&sr=b&sig=A8ifNrvg3HYYQBnpCCdu0NhfqjxX3wcQQG7QO5KcBw0%3D" width="80%">
-</p>
+
 
 <p align="center">
   <img alt="AdXR Logo2" src="https://adxrblob1.blob.core.windows.net/container1/AdXR%20Developer%20Still%20Shot%201.jpg?sp=r&st=2024-08-22T02:55:18Z&se=2034-08-22T10:55:18Z&spr=https&sv=2022-11-02&sr=b&sig=Yx0NwhyQSMixJfT0Lgldu0OJGFPjai7DnD7cILbyx9s%3D" width="80%">
