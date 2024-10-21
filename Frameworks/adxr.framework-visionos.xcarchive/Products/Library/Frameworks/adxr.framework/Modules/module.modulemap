@@ -1,0 +1,6 @@
+framework module adxr {
+  umbrella header "adxr.h"
+  export *
+
+  module * { export * }
+}
