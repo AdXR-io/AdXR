@@ -88,14 +88,21 @@ private func showAd() {
 
 ### Applying the ADXR View Modifier
 Use the ```.withADXR()``` view modifier to enable spatial ad display:
+
+
+
 ```swift
 var body: some View {
     VStack {
         // Your view content here
     }
-    .withADXR()  // This applies the ADXR view modifier
+    .withADXR()  // Correct usage: Apply only one instance of .withADXR()
 }
 ```
+
+⚠️ Warning: Avoid Multiple ```.withADXR()``` Modifiers
+
+Adding more than one ```.withADXR()``` view modifier will result in conflicting ad windows and cause the ad not to display correctly. Ensure only a single ```.withADXR()``` modifier is applied per view.
 
 ### Important Features
 - Pre and Post Ad Processes: You can add custom logic before and after displaying an ad.
