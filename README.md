@@ -55,6 +55,8 @@ To use AdXR, you'll need to generate API keys from our website. Follow these ste
 
 5. Save your newly generated API key pair.
 
+---
+
 ## Usage
 
 Go the /examples folder to see how AdXR's SDK can be integrated into VisionOS apps.
@@ -86,6 +88,33 @@ private func showAd() {
 }
 ```
 
+### Important Note on Ad Playback
+
+The `getAd` function initiates the ad fetching and playback process but does not wait for the ad to finish playing. It returns immediately after starting the ad. To handle actions after the ad has completed, you should observe the `isShowingAd` property.
+
+### Observing Ad Playback Completion
+
+You can use the `isShowingAd` property to determine when an ad has finished playing. This property is an `@Published` variable, allowing you to observe it for changes. When `isShowingAd` changes from `true` to `false`, it indicates that the ad playback has completed.
+
+Here's an example of how to observe this property:
+
+```swift
+import Combine
+
+let adxr = ADXR.shared
+var cancellable: AnyCancellable?
+
+cancellable = adxr.$isShowingAd
+.sink { isShowingAd in
+  if !isShowingAd {
+    // Ad playback has completed
+    print("Ad playback complete")
+    // Perform any additional actions here
+  }
+}
+```
+
+
 ### Applying the ADXR View Modifier
 Use the ```.withADXR()``` view modifier to enable spatial ad display:
 
@@ -104,7 +133,9 @@ var body: some View {
 
 Adding more than one ```.withADXR()``` view modifier will result in conflicting ad windows and cause the ad not to display correctly. Ensure only a single ```.withADXR()``` modifier is applied per view.
 
-### Important Features
+---
+
+## Important Features
 - Pre and Post Ad Processes: You can add custom logic before and after displaying an ad.
 - Error Handling: The getAd() function is wrapped in a do-catch block to handle potential errors.
 - Asynchronous Execution: The showAd() function uses Swift's async/await pattern for non-blocking ad display.
