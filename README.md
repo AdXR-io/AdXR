@@ -72,7 +72,7 @@ struct ContentView: View {
 
 }
 ```
-Note that the ad being displayed is asynchronous. Developers may choose to build logic around this 'await' to seemlesly integrate ads into their user experience.
+
 ```swift
 private func showAd() {
     Task {
@@ -86,6 +86,14 @@ private func showAd() {
 }
 ```
 
+⚠️ Important: When in debug mode, be sure to apply a third parameter set to true to getAd() to request developer ads. Not doing so may result in an account ban if test ads are not properly distinguished from production ads.
+
+To do so, simply modify the getAd function to add a third parameter ```debug```, which should be set to true:
+```swift
+try await adManager.getAd(apiKey: API_KEY, secretKey: SECRET_KEY, debug: true)
+```
+
+---
 ### Applying the ADXR View Modifier
 Use the ```.withADXR()``` view modifier to enable spatial ad display:
 ```swift
@@ -93,9 +101,12 @@ var body: some View {
     VStack {
         // Your view content here
     }
-    .withADXR()  // This applies the ADXR view modifier
+    .withADXR()  // Correct usage: Apply only one instance
 }
 ```
+
+⚠️ Warning: Avoid Multiple .withADXR() Modifiers
+Adding more than one ```.withADXR()``` view modifier will result in conflicting ad windows and cause the ad not to display correctly. Ensure only a single ```.withADXR()``` modifier is applied per view.
 
 ### Important Features
 - Pre and Post Ad Processes: You can add custom logic before and after displaying an ad.
