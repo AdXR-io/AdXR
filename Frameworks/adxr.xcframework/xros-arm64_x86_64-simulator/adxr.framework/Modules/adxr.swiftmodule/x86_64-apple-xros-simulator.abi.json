@@ -2293,212 +2293,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "isSpatialPlaybackEnabled",
-            "printedName": "isSpatialPlaybackEnabled",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:4adxr11PlayerModelC24isSpatialPlaybackEnabledSbvp",
-            "mangledName": "$s4adxr11PlayerModelC24isSpatialPlaybackEnabledSbvp",
-            "moduleName": "adxr",
-            "declAttributes": [
-              "ProjectedValueProperty",
-              "AccessControl",
-              "Custom"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:4adxr11PlayerModelC24isSpatialPlaybackEnabledSbvg",
-                "mangledName": "$s4adxr11PlayerModelC24isSpatialPlaybackEnabledSbvg",
-                "moduleName": "adxr",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:4adxr11PlayerModelC24isSpatialPlaybackEnabledSbvs",
-                "mangledName": "$s4adxr11PlayerModelC24isSpatialPlaybackEnabledSbvs",
-                "moduleName": "adxr",
-                "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13.0",
-                "intro_tvOS": "13.0",
-                "intro_watchOS": "6.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:4adxr11PlayerModelC24isSpatialPlaybackEnabledSbvM",
-                "mangledName": "$s4adxr11PlayerModelC24isSpatialPlaybackEnabledSbvM",
-                "moduleName": "adxr",
-                "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13.0",
-                "intro_tvOS": "13.0",
-                "intro_watchOS": "6.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "$isSpatialPlaybackEnabled",
-            "printedName": "$isSpatialPlaybackEnabled",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Publisher",
-                "printedName": "Combine.Published<Swift.Bool>.Publisher",
-                "usr": "s:7Combine9PublishedV9PublisherV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:4adxr11PlayerModelC25$isSpatialPlaybackEnabled7Combine9PublishedV9PublisherVySb_Gvp",
-            "mangledName": "$s4adxr11PlayerModelC25$isSpatialPlaybackEnabled7Combine9PublishedV9PublisherVySb_Gvp",
-            "moduleName": "adxr",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
-                    "usr": "s:7Combine9PublishedV9PublisherV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:4adxr11PlayerModelC25$isSpatialPlaybackEnabled7Combine9PublishedV9PublisherVySb_Gvg",
-                "mangledName": "$s4adxr11PlayerModelC25$isSpatialPlaybackEnabled7Combine9PublishedV9PublisherVySb_Gvg",
-                "moduleName": "adxr",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
-                    "usr": "s:7Combine9PublishedV9PublisherV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:4adxr11PlayerModelC25$isSpatialPlaybackEnabled7Combine9PublishedV9PublisherVySb_Gvs",
-                "mangledName": "$s4adxr11PlayerModelC25$isSpatialPlaybackEnabled7Combine9PublishedV9PublisherVySb_Gvs",
-                "moduleName": "adxr",
-                "implicit": true,
-                "intro_Macosx": "11.0",
-                "intro_iOS": "14.0",
-                "intro_tvOS": "14.0",
-                "intro_watchOS": "7.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:4adxr11PlayerModelC25$isSpatialPlaybackEnabled7Combine9PublishedV9PublisherVySb_GvM",
-                "mangledName": "$s4adxr11PlayerModelC25$isSpatialPlaybackEnabled7Combine9PublishedV9PublisherVySb_GvM",
-                "moduleName": "adxr",
-                "implicit": true,
-                "intro_Macosx": "11.0",
-                "intro_iOS": "14.0",
-                "intro_tvOS": "14.0",
-                "intro_watchOS": "7.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -2522,7 +2316,7 @@
           {
             "kind": "Function",
             "name": "loadVideo",
-            "printedName": "loadVideo(url:adName:adDescription:isSpatial:)",
+            "printedName": "loadVideo(url:adName:adDescription:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2546,18 +2340,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:4adxr11PlayerModelC9loadVideo3url6adName0G11Description9isSpatialy10Foundation3URLV_S2SSbtF",
-            "mangledName": "$s4adxr11PlayerModelC9loadVideo3url6adName0G11Description9isSpatialy10Foundation3URLV_S2SSbtF",
+            "usr": "s:4adxr11PlayerModelC9loadVideo3url6adName0G11Descriptiony10Foundation3URLV_S2StF",
+            "mangledName": "$s4adxr11PlayerModelC9loadVideo3url6adName0G11Descriptiony10Foundation3URLV_S2StF",
             "moduleName": "adxr",
             "declAttributes": [
               "AccessControl"
@@ -3476,98 +3263,84 @@
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 290,
+      "offset": 291,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 345,
+      "offset": 346,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 412,
+      "offset": 413,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "Array",
-      "offset": 537,
+      "offset": 538,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 8430,
+      "offset": 8431,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 8479,
+      "offset": 8480,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 8528,
+      "offset": 8529,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 8590,
+      "offset": 8591,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 8656,
+      "offset": 8657,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8718,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8848,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "StringLiteral",
-      "offset": 15503,
+      "offset": 14912,
       "length": 11,
       "value": "\"adxr.Coordinator\""
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "BooleanLiteral",
-      "offset": 16753,
+      "offset": 15685,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/john\/projects\/adxr\/org\/adxr_framework\/adxr\/adxr\/adxr.swift",
       "kind": "Array",
-      "offset": 20669,
+      "offset": 18503,
       "length": 127,
       "value": "[\"Inappropriate content\", \"Misleading information\", \"Poor video quality\", \"Audio issues\"]"
     }

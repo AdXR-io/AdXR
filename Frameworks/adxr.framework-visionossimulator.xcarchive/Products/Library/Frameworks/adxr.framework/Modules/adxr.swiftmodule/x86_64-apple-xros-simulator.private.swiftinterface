@@ -136,20 +136,8 @@ public class PlayerModel : Combine.ObservableObject {
   public var $adDescription: Combine.Published<Swift.String>.Publisher {
     get
   }
-  @Combine.Published @_projectedValueProperty($isSpatialPlaybackEnabled) public var isSpatialPlaybackEnabled: Swift.Bool {
-    get
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-    set
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-    _modify
-  }
-  public var $isSpatialPlaybackEnabled: Combine.Published<Swift.Bool>.Publisher {
-    get
-    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-    set
-  }
   public init()
-  public func loadVideo(url: Foundation.URL, adName: Swift.String, adDescription: Swift.String, isSpatial: Swift.Bool = false)
+  public func loadVideo(url: Foundation.URL, adName: Swift.String, adDescription: Swift.String)
   public func play()
   public func pause()
   public func reset()
