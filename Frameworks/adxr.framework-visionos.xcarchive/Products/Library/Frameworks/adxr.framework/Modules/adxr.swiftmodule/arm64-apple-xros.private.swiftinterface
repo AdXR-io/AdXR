@@ -56,7 +56,7 @@ import _SwiftConcurrencyShims
     get
   }
   #if compiler(>=5.3) && $AsyncAwait
-  public func getAd(apiKey: Swift.String, secretKey: Swift.String) async throws
+  public func getAd(apiKey: Swift.String, secretKey: Swift.String, debug: Swift.Bool = false) async throws
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func registerActivity(reason: adxr.AdClosureReason, time: Swift.Double, reportReason: Swift.String? = nil) async
