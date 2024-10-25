@@ -60,6 +60,7 @@ To use AdXR, you'll need to generate API keys from our website. Follow these ste
 Go the /examples folder to see how AdXR's SDK can be integrated into VisionOS apps.
 
 ### Importing and creating an adManager
+
 ```swift
 import SwiftUI
 import adxr
@@ -72,7 +73,7 @@ struct ContentView: View {
 
 }
 ```
-
+The adManager can then be used to call the ```getAd()``` function. This is where developer API keys will be passed.
 ```swift
 private func showAd() {
     Task {
@@ -112,6 +113,7 @@ Adding more than one ```.withADXR()``` view modifier will result in conflicting 
 - Pre and Post Ad Processes: You can add custom logic before and after displaying an ad.
 - Error Handling: The getAd() function is wrapped in a do-catch block to handle potential errors.
 - Asynchronous Execution: The showAd() function uses Swift's async/await pattern for non-blocking ad display.
+- Determining state of ad: The ```.isShowingAd``` variable of the player can be used to determine if the ad window is being shown in your app.
 ```swift
 private func showAd() {
     Task {
