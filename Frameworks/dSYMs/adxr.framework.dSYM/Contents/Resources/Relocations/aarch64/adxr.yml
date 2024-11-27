@@ -1,10 +1,10 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/john/projects/adxr/org/adxr_framework/adxr/DerivedData/adxr/Build/Intermediates.noindex/ArchiveIntermediates/adxr/InstallationBuildProductsLocation/Library/Frameworks/adxr.framework/adxr'
+binary-path:     '/Users/john/projects/adxr/org/adxr_framework/DerivedData/adxr/Build/Intermediates.noindex/ArchiveIntermediates/adxr/InstallationBuildProductsLocation/Library/Frameworks/adxr.framework/adxr'
 relocations:
   - { offsetInCU: 0x34, offset: 0x96984, size: 0x8, addend: 0x0, symName: _adxrVersionString, symObjAddr: 0x0, symBinAddr: 0x1A5B0, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x969B9, size: 0x8, addend: 0x0, symName: _adxrVersionNumber, symObjAddr: 0x28, symBinAddr: 0x1A5D8, symSize: 0x0 }
-  - { offsetInCU: 0x4F, offset: 0x96A1E, size: 0x8, addend: 0x0, symName: '_$s4adxr4ADXRC6sharedACvpZ', symObjAddr: 0x641A8, symBinAddr: 0x25928, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0x96A1E, size: 0x8, addend: 0x0, symName: '_$s4adxr4ADXRC6sharedACvpZ', symObjAddr: 0x64178, symBinAddr: 0x25928, symSize: 0x0 }
   - { offsetInCU: 0x698, offset: 0x97067, size: 0x8, addend: 0x0, symName: '_$s4adxr4ADXRC11hashKeypair33_C5B2AABEF8767ACCD91B6391255BF3CELL6apiKey06secretM0S2S_SStFTf4nnd_n', symObjAddr: 0xFF50, symBinAddr: 0x14908, symSize: 0x508 }
   - { offsetInCU: 0xA9B, offset: 0x9746A, size: 0x8, addend: 0x0, symName: '_$s4adxr4ADXRC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x49B8, symSize: 0x3C }
   - { offsetInCU: 0xADC, offset: 0x974AB, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x18C, symBinAddr: 0x4B44, symSize: 0x40 }
