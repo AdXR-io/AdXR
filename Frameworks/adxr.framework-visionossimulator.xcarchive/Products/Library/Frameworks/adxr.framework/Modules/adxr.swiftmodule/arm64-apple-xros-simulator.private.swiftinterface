@@ -4,6 +4,7 @@
 import Combine
 import CommonCrypto
 import CryptoKit
+import Foundation
 import Swift
 import SwiftUI
 import _AVKit_SwiftUI
@@ -67,27 +68,7 @@ import _SwiftConcurrencyShims
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
-public enum ADXRError : Swift.Error {
-  case invalidCredentials
-  case invalidURL
-  case invalidResponse
-  case badRequest
-  case serverError(statusCode: Swift.Int)
-  case missingData
-}
-public enum AdClosureReason {
-  case skip
-  case osButtonClose
-  case reportAd
-  case learnMore
-  case completed
-  public static func == (a: adxr.AdClosureReason, b: adxr.AdClosureReason) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public class PlayerModel : Combine.ObservableObject {
+public class PlayerModel : Foundation.ObservableObject {
   @Combine.Published @_projectedValueProperty($player) public var player: AVFoundation.AVPlayer? {
     get
   }
@@ -144,6 +125,26 @@ public class PlayerModel : Combine.ObservableObject {
   public func seekToBeginning()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
+}
+public enum ADXRError : Swift.Error {
+  case invalidCredentials
+  case invalidURL
+  case invalidResponse
+  case badRequest
+  case serverError(statusCode: Swift.Int)
+  case missingData
+}
+public enum AdClosureReason {
+  case skip
+  case osButtonClose
+  case reportAd
+  case learnMore
+  case completed
+  public static func == (a: adxr.AdClosureReason, b: adxr.AdClosureReason) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @_Concurrency.MainActor(unsafe) public struct PlayerView : SwiftUI.UIViewControllerRepresentable {
   @_Concurrency.MainActor(unsafe) public init(playerModel: adxr.PlayerModel, adManager: adxr.ADXR)
