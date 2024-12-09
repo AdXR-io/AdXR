@@ -100,7 +100,7 @@ var body: some View {
 ### Important Features
 - Pre and Post Ad Processes: You can add custom logic before and after displaying an ad.
 - Error Handling: The getAd() function is wrapped in a do-catch block to handle potential errors.
-- Asynchronous Execution: The showAd() function uses Swift's async/await pattern for non-blocking ad display.
+
 ```swift
 private func showAd() {
     Task {
@@ -119,6 +119,47 @@ private func showAd() {
     }
 }
 ```
+
+### Building Around The Advertisement
+Since ```isShowingAd``` is marked as ```@Published public```, developers using the SDK can observe it in a few ways
+
+1. Using ```@ObservedObject```
+```swift
+struct ContentView: View {
+    @ObservedObject var adManager = ADXR.shared
+    
+    var body: some View {
+        Text("Ad is currently \(adManager.isShowingAd ? "showing" : "hidden")")
+    }
+}
+```
+
+2. Using Combine
+```swift
+class YourViewModel {
+    var cancellables = Set<AnyCancellable>()
+    
+    init() {
+        ADXR.shared.$isShowingAd
+            .sink { isShowing in
+                print("Ad state changed to: \(isShowing)")
+                // Handle state change
+            }
+            .store(in: &cancellables)
+    }
+}
+```
+
+3. Direct property access
+```swift
+let isCurrentlyShowingAd = ADXR.shared.isShowingAd
+```
+
+This is useful for developers who want to:
+- Update their UI based on ad state
+- Pause game logic while an ad is showing
+- Track analytics about when ads are shown
+- Coordinate other app behaviors with ad display
 
 
 
