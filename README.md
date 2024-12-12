@@ -77,7 +77,7 @@ Note that the ad being displayed is asynchronous. Developers may choose to build
 private func showAd() {
     Task {
         do {
-            try await adManager.getAd(apiKey: API_KEY, secretKey: SECRET_KEY)
+            try await adManager.getAd(apiKey: API_KEY, secretKey: SECRET_KEY, debug: true) // debug optional
             // Ad playback completed
         } catch {
             print("Error showing ad: \(error)")
